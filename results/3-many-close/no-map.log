@@ -1,0 +1,219 @@
+Generating:
+Red: mean [10, 0] std [6, 6]
+Blue: mean [0, 10] std [6, 6]
+
+ME is here
+Learning points: 200
+Iteration: 30
+No MAP
+
+Iteration #0
+Error rate:  50.5 %
+Error rate inversed:  49.5 %
+Guesses:
+Red: mean [1.55941041 1.49707502] std [18.11160625 18.30934163]
+Blue: mean [8.32932688 8.1963572 ] std [18.71769991 18.9921341 ]
+
+Iteration #1
+Error rate:  46.5 %
+Error rate inversed:  53.5 %
+Guesses:
+Red: mean [4.16157981 4.03277795] std [7.89161134 8.34847917]
+Blue: mean [4.82194716 4.76785264] std [8.29964808 8.69059565]
+
+Iteration #2
+Error rate:  45.0 %
+Error rate inversed:  55.0 %
+Guesses:
+Red: mean [4.29046061 4.20731216] std [7.34046233 7.88849893]
+Blue: mean [4.67141957 4.56883834] std [7.64063331 8.06749127]
+
+Iteration #3
+Error rate:  46.0 %
+Error rate inversed:  54.0 %
+Guesses:
+Red: mean [4.33011699 4.3061974 ] std [7.34847042 7.92329843]
+Blue: mean [4.62942102 4.46773047] std [7.63058811 8.03236604]
+
+Iteration #4
+Error rate:  54.5 %
+Error rate inversed:  45.5 %
+Guesses:
+Red: mean [4.33495172 4.38735197] std [7.35348094 7.94735845]
+Blue: mean [4.62458513 4.386576  ] std [7.62572962 8.00894934]
+
+Iteration #5
+Error rate:  67.5 %
+Error rate inversed:  32.5 %
+Guesses:
+Red: mean [4.31031197 4.46558669] std [7.35262849 7.96306239]
+Blue: mean [4.64922718 4.30834083] std [7.62561462 7.99250434]
+
+Iteration #6
+Error rate:  75.0 %
+Error rate inversed:  25.0 %
+Guesses:
+Red: mean [4.25643341 4.55411086] std [7.34396372 7.9727301 ]
+Blue: mean [4.70310947 4.21981359] std [7.63148992 7.98034968]
+
+Iteration #7
+Error rate:  79.5 %
+Error rate inversed:  20.5 %
+Guesses:
+Red: mean [4.16847483 4.66608798] std [7.32451703 7.97742454]
+Blue: mean [4.79107876 4.10782616] std [7.64464362 7.96997838]
+
+Iteration #8
+Error rate:  82.5 %
+Error rate inversed:  17.5 %
+Guesses:
+Red: mean [4.03675405 4.81664688] std [7.28974123 7.97681397]
+Blue: mean [4.92283516 3.95723158] std [7.66612595 7.95845966]
+
+Iteration #9
+Error rate:  86.0 %
+Error rate inversed:  14.0 %
+Guesses:
+Red: mean [3.84674213 5.02440499] std [7.23283668 7.96852832]
+Blue: mean [5.11297186 3.74934593] std [7.69577615 7.94144806]
+
+Iteration #10
+Error rate:  85.5 %
+Error rate inversed:  14.5 %
+Guesses:
+Red: mean [3.57988146 5.31190072] std [7.14431871 7.94679839]
+Blue: mean [5.3802708  3.46139607] std [7.72987666 7.91152315]
+
+Iteration #11
+Error rate:  85.5 %
+Error rate inversed:  14.5 %
+Guesses:
+Red: mean [3.21736631 5.70305045] std [7.01298007 7.90034274]
+Blue: mean [5.74423962 3.06872183] std [7.75666139 7.85569644]
+
+Iteration #12
+Error rate:  85.5 %
+Error rate inversed:  14.5 %
+Guesses:
+Red: mean [2.74973088 6.21422789] std [6.83031516 7.8106301 ]
+Blue: mean [6.21606026 2.5530957 ] std [7.7506091  7.75295354]
+
+Iteration #13
+Error rate:  87.0 %
+Error rate inversed:  13.0 %
+Guesses:
+Red: mean [2.19158316 6.83726052] std [6.59882635 7.6545447 ]
+Blue: mean [6.78355093 1.91996661] std [7.67238244 7.57586384]
+
+Iteration #14
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [1.59107783 7.52333656] std [6.33804962 7.41724429]
+Blue: mean [7.39807574 1.21843674] std [7.48702038 7.30438179]
+
+Iteration #15
+Error rate:  87.5 %
+Error rate inversed:  12.5 %
+Guesses:
+Red: mean [1.02152516 8.18842001] std [6.0805891  7.11236516]
+Blue: mean [7.9787084  0.54077377] std [7.20012746 6.95348957]
+
+Iteration #16
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [0.556824   8.74758337] std [5.86202675 6.7893224 ]
+Blue: mean [ 8.44258662 -0.01797633] std [6.87813568 6.58713645]
+
+Iteration #17
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [0.24027981 9.15576897] std [5.70929687 6.50900814]
+Blue: mean [ 8.74697102 -0.41301369] std [6.61202506 6.28142726]
+
+Iteration #18
+Error rate:  88.5 %
+Error rate inversed:  11.5 %
+Guesses:
+Red: mean [0.06537272 9.42231709] std [5.62697849 6.30414785]
+Blue: mean [ 8.90596688 -0.66185062] std [6.44946654 6.06896163]
+
+Iteration #19
+Error rate:  88.5 %
+Error rate inversed:  11.5 %
+Guesses:
+Red: mean [-9.11871811e-03  9.58817888e+00] std [5.59688131 6.16836054]
+Blue: mean [ 8.96598602 -0.81115621] std [6.37749085 5.93460185]
+
+Iteration #20
+Error rate:  89.0 %
+Error rate inversed:  11.0 %
+Guesses:
+Red: mean [-0.02715726  9.69387516] std [5.59523239 6.07899107]
+Blue: mean [ 8.9720982  -0.90275893] std [6.36027184 5.84946973]
+
+Iteration #21
+Error rate:  89.0 %
+Error rate inversed:  11.0 %
+Guesses:
+Red: mean [-0.01883014  9.7660368 ] std [5.60541335 6.01698401]
+Blue: mean [ 8.953895   -0.96284556] std [6.36926568 5.79211   ]
+
+Iteration #22
+Error rate:  89.0 %
+Error rate inversed:  11.0 %
+Guesses:
+Red: mean [-5.00145543e-04  9.81912927e+00] std [5.61889494 5.97100068]
+Blue: mean [ 8.9271031  -1.00526854] std [6.38841374 5.75055738]
+
+Iteration #23
+Error rate:  89.0 %
+Error rate inversed:  11.0 %
+Guesses:
+Red: mean [0.0200753 9.8604772] std [5.63206309 5.9350645 ]
+Blue: mean [ 8.89905966 -1.03696118] std [6.41002585 5.71873662]
+
+Iteration #24
+Error rate:  88.5 %
+Error rate inversed:  11.5 %
+Guesses:
+Red: mean [0.03960315 9.89382918] std [5.64365901 5.90605111]
+Blue: mean [ 8.8728369 -1.0614883] std [6.4307821  5.69352615]
+
+Iteration #25
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [0.05689558 9.92124341] std [5.65341992 5.88221887]
+Blue: mean [ 8.84952069 -1.08084475] std [6.44942751 5.67318819]
+
+Iteration #26
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [0.07169769 9.94397918] std [5.66146119 5.86248681]
+Blue: mean [ 8.82931921 -1.09627664] std [6.46563321 5.65663791]
+
+Iteration #27
+Error rate:  88.0 %
+Error rate inversed:  12.0 %
+Guesses:
+Red: mean [0.08414002 9.96290063] std [5.66801596 5.8461028 ]
+Blue: mean [ 8.81207344 -1.10864409] std [6.47946566 5.64311932]
+
+Iteration #28
+Error rate:  87.5 %
+Error rate inversed:  12.5 %
+Guesses:
+Red: mean [0.09449134 9.97865826] std [5.67333183 5.83249439]
+Blue: mean [ 8.79748665 -1.11858389] std [6.49114535 5.63206186]
+
+Iteration #29
+Error rate:  87.5 %
+Error rate inversed:  12.5 %
+Guesses:
+Red: mean [0.10305043 9.99177207] std [5.67763348 5.82120079]
+Blue: mean [ 8.78522636 -1.12658708] std [6.50093878 5.62301431]
+

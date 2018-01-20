@@ -159,11 +159,11 @@ def testExaminer(red):
 np.random.seed(7075) # for reproducible random results
 
 gen = lambda: None
-gen.red_mean = [5, 0]
-gen.red_std = [3, 3]
+gen.red_mean = [10, 0]
+gen.red_std = [6, 6]
 
-gen.blue_mean = [0, 5]
-gen.blue_std = [3, 3]
+gen.blue_mean = [0, 10]
+gen.blue_std = [6, 6]
 
 print "Generating:"
 print "Red:", "mean", gen.red_mean, "std", gen.red_std
@@ -176,9 +176,9 @@ testAndPrint = testExaminer(red)
 
 # apriori_params = None
 apriori_params = lambda: None
-apriori_params.weight = 5
+apriori_params.weight = 1
 
-me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=30)
+me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=10)
 
 # for w in range(0, 100):
 #     apriori_params.weight = w

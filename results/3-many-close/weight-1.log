@@ -1,0 +1,71 @@
+Generating:
+Red: mean [10, 0] std [6, 6]
+Blue: mean [0, 10] std [6, 6]
+
+ME is here
+Learning points: 200
+Iteration: 10
+Using MAP with weight 20.0
+
+Iteration #0
+Error rate:  50.5 %
+Error rate inversed:  49.5 %
+Guesses:
+Red: mean [9.36080786 3.09152245] std [18.11160625 18.30934163]
+Blue: mean [ 1.03618066 17.19205557] std [18.71769991 18.9921341 ]
+
+Iteration #1
+Error rate:  21.0 %
+Error rate inversed:  79.0 %
+Guesses:
+Red: mean [7.78828231 3.30743968] std [8.46194507 7.83989949]
+Blue: mean [ 1.74769417 14.14409663] std [ 7.59579898 13.60280142]
+
+Iteration #2
+Error rate:  20.0 %
+Guesses:
+Red: mean [8.34534883 2.4229696 ] std [7.47478525 7.0419493 ]
+Blue: mean [ 0.51141759 13.31272321] std [ 6.34725193 10.40277459]
+
+Iteration #3
+Error rate:  13.0 %
+Guesses:
+Red: mean [9.05253068 1.50309618] std [6.95483865 6.79218543]
+Blue: mean [-0.2975368  12.76562504] std [5.72923093 8.50663443]
+
+Iteration #4
+Error rate:  11.5 %
+Guesses:
+Red: mean [9.44095429 0.92851845] std [6.54898726 6.53763373]
+Blue: mean [-0.72420998 12.45489433] std [5.40180026 7.33432361]
+
+Iteration #5
+Error rate:  11.5 %
+Guesses:
+Red: mean [9.5906976  0.62375625] std [6.35367547 6.33861298]
+Blue: mean [-0.90636812 12.35258408] std [5.27796209 6.73196342]
+
+Iteration #6
+Error rate:  11.0 %
+Guesses:
+Red: mean [9.61766627 0.46652565] std [6.31152673 6.21353314]
+Blue: mean [-0.9591116  12.34846768] std [5.25389011 6.42988577]
+
+Iteration #7
+Error rate:  11.5 %
+Guesses:
+Red: mean [9.59759201 0.37819491] std [6.33447367 6.13385348]
+Blue: mean [-0.95633528 12.37493295] std [5.26622038 6.26150677]
+
+Iteration #8
+Error rate:  12.0 %
+Guesses:
+Red: mean [9.5651263  0.32167944] std [6.37574611 6.07812232]
+Blue: mean [-0.93467144 12.40633544] std [5.2872037 6.152944 ]
+
+Iteration #9
+Error rate:  12.0 %
+Guesses:
+Red: mean [9.53290744 0.28151498] std [6.41785956 6.03605805]
+Blue: mean [-0.90918354 12.43506095] std [5.30733582 6.0745747 ]
+
