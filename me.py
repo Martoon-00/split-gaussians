@@ -48,8 +48,8 @@ def me(red, blue, iterations=5, apriori=None, test_callback=None):
     if apriori:
         apriori_std = dispersion / np.sqrt(apriori.weight)
 
-    red_std_guess = dispersion / 5
-    blue_std_guess = dispersion / 5
+    red_std_guess = dispersion * 5
+    blue_std_guess = dispersion * 5
 
     #
     # Preliminary plot
@@ -151,26 +151,25 @@ def testExaminer(red):
         error_rate = float(errors) / (len(red) + len(blue))
         print "Error rate: ", error_rate * 100, "%"
         if (error_rate > 0.2):
-            inv_errors = diff_size(blue, supposed_red) + diff_size(supposed_red, blue)
-            print "Error rate inversed: ", float(inv_errors) / (len(red) + len(blue)) * 100, "%"
+            print "Error rate inversed: ", 100 - float(errors) / (len(red) + len(blue)) * 100, "%"
     return f
 
 
 np.random.seed(7075) # for reproducible random results
 
 gen = lambda: None
-gen.red_mean = [10, 0]
-gen.red_std = [6, 6]
+gen.red_mean = [10, 0, 20, 10, 10]
+gen.red_std = [10, 3, 1, 2, 3]
 
-gen.blue_mean = [0, 10]
-gen.blue_std = [6, 6]
+gen.blue_mean = [0, 10, 10, 2, 2]
+gen.blue_std = [2, 10, 2, 4, 3]
 
 print "Generating:"
 print "Red:", "mean", gen.red_mean, "std", gen.red_std
 print "Blue:", "mean", gen.blue_mean, "std", gen.blue_std
 print
 
-red, blue = generate(gen, size = 100)
+red, blue = generate(gen, size = 1000)
 
 testAndPrint = testExaminer(red)
 
@@ -178,7 +177,7 @@ testAndPrint = testExaminer(red)
 apriori_params = lambda: None
 apriori_params.weight = 1
 
-me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=10)
+me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=20)
 
 # for w in range(0, 100):
 #     apriori_params.weight = w
