@@ -170,15 +170,15 @@ print "Red:", "mean", gen.red_mean, "std", gen.red_std
 print "Blue:", "mean", gen.blue_mean, "std", gen.blue_std
 print
 
-red, blue = generate(gen, size = 5)
+red, blue = generate(gen, size = 100)
 
 testAndPrint = testExaminer(red)
 
 # apriori_params = None
 apriori_params = lambda: None
-apriori_params.weight = 3
+apriori_params.weight = 5
 
-me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=5)
+me(red, blue, apriori=apriori_params, test_callback=testAndPrint, iterations=30)
 
 # for w in range(0, 100):
 #     apriori_params.weight = w
