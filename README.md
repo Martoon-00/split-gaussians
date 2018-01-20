@@ -1,4 +1,6 @@
 # split-gaussians
 ME algorithm using maximal aposteriori method
 
-For 2rd homework on ML course.
+For 2-nd homework on ML course.
+
+See `report.txt`.
