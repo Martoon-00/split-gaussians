@@ -1,0 +1,44 @@
+Generating:
+Red: mean [5, 0] std [3, 3]
+Blue: mean [0, 5] std [3, 3]
+
+ME is here
+Learning points: 10
+Iteration: 5
+Using MAP with weight 0.04472135955
+
+Iteration #0
+Error rate:  70.0 %
+Error rate inversed:  30.0 %
+Guesses:
+Red: mean [0.43733848 5.36974909] std [5.0370038  9.73803167]
+Blue: mean [4.62614321 4.70652388] std [6.65290246 6.94404397]
+
+Iteration #1
+Error rate:  100.0 %
+Error rate inversed:  0.0 %
+Guesses:
+Red: mean [1.27312896 5.82125471] std [3.79007636 3.41244966]
+Blue: mean [2.97445193 4.62118099] std [4.08479526 3.18122454]
+
+Iteration #2
+Error rate:  100.0 %
+Error rate inversed:  0.0 %
+Guesses:
+Red: mean [0.97901896 6.22582267] std [3.71483763 3.30927091]
+Blue: mean [3.36462588 4.16410435] std [3.63062517 3.07722426]
+
+Iteration #3
+Error rate:  100.0 %
+Error rate inversed:  0.0 %
+Guesses:
+Red: mean [0.31928761 6.80383475] std [3.5594743  3.08946155]
+Blue: mean [4.01717562 3.60240376] std [3.29410192 2.84883003]
+
+Iteration #4
+Error rate:  100.0 %
+Error rate inversed:  0.0 %
+Guesses:
+Red: mean [-0.44317232  7.42340759] std [3.07406177 2.61077722]
+Blue: mean [4.7598266  3.00791027] std [2.74843109 2.50420922]
+
